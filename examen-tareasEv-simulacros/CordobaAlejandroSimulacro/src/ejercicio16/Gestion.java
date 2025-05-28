@@ -19,7 +19,7 @@ public class Gestion {
 			
 			switch (opcion) {
 			case 1:
-				m.nuevoBarco(l, sc, barcos);				
+				m.nuevoBarco(l, sc, barcos); // nos lleva a la clase Metodos para crear el nuevo barco
 				break;
 			case 2:
 				m.mostrarInfo(l, sc, barcos);
