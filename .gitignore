@@ -1,0 +1,18 @@
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# VS Code
+.vscode/
+
+# Archivos compilados
+*.class
+bin/
+
+# Archivos temporales / sistema
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
