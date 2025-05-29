@@ -20,13 +20,7 @@ import Excepciones.TelefonoUsadoException;
 
 public class MetodosCuentas {
 	
-	protected Path rutaCuentas = Paths.get("cuentas.txt");
-	
-	
-	
-	
-	
-	
+	protected Path rutaCuentas = Paths.get("examen-tareasEv-simulacros", "Act_Ev_3_Trimestre", "cuentas.txt");
 	
 	protected ArrayList<CuentaUsuario> cargarCuentasDesdeArchivo() {
 		

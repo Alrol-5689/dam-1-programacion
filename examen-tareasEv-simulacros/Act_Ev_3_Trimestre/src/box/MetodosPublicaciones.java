@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class MetodosPublicaciones {
 
-	protected Path rutaPublicaciones = Paths.get("publicaciones.txt");
+	protected Path rutaPublicaciones = Paths.get("examen-tareasEv-simulacros", "Act_Ev_3_Trimestre", "publicaciones.txt");
 
 	protected ArrayList<Publicacion> cargarPublicacionesDesdeArchivo(ArrayList<CuentaUsuario> cuentas) {
 

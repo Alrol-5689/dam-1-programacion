@@ -5,20 +5,17 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
 public class ArchivoDemo {
 
     public static void main(String[] args) {
         // Paso 1: Definir la ruta con Paths
-        Path ruta = Path.of("demo.txt"); // Path  = Paths.get("");
-        
-        
-        
-        
+        Path ruta = Path.of("tareas", "AprendiendoFicherosConGpt", "demo.txt"); // Path = Paths.get("");
+
         // Paso 2: Escribir en el archivo con BufferedWriter
-        try (BufferedWriter writer = Files.newBufferedWriter(ruta, StandardOpenOption.APPEND, StandardOpenOption.CREATE)) {
+        try (BufferedWriter writer = Files.newBufferedWriter(ruta, StandardOpenOption.APPEND,
+                StandardOpenOption.CREATE)) {
             writer.write("Hola mundo");
             writer.newLine();
             writer.write("Esto es una prueba con BufferedWriter");
@@ -41,5 +38,3 @@ public class ArchivoDemo {
         }
     }
 }
-
-
