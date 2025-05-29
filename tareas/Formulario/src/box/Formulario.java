@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Formulario {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int opcion = 0;
 		boolean nombreOk = false, apellidosOk = false, dniOk = false, emailOk = false;
@@ -79,6 +78,8 @@ public class Formulario {
 			
 			
 		}while(opcion != 5);
+
+		sc.close();
 
 	}
 

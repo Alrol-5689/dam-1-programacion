@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Córdoba_Alejandro_act_ev_T1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 				// DECLARACIÓN DE VARIABLES
 				
@@ -106,7 +105,7 @@ public class Córdoba_Alejandro_act_ev_T1 {
 				}while(!opcion.equalsIgnoreCase("x")); // FINAL DEL BUCLE /////////////////////////////////////////////////////////////////////////////////////////////////
 				
 				// opcion.equalsIgnoreCase("")  <==>  opcion.toUpperCase().equals("")  <==>  opcion.toLowerCase().equals("")  ==>> AUNQUE IgnoreCase NO VALE PARA EL switch
-
+				sc.close();
 	}
 
 }
