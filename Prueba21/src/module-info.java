@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Prueba21 {
+module PruebaTwentyOne {
 }
