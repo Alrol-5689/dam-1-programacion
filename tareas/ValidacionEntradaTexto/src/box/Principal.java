@@ -22,11 +22,7 @@ public class Principal {
 				System.out.println("Me has contado: "+txt);
 				break;
 				
-			}catch(IsEmptyException e) {
-				
-				System.err.println("Error: "+e.getMessage());
-				
-			}catch(IsBlankException e) {
+			}catch(IsEmptyException | IsBlankException e) {
 				
 				System.err.println("Error: "+e.getMessage());
 				

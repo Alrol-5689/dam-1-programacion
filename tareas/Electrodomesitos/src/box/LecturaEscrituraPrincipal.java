@@ -47,7 +47,6 @@ public class LecturaEscrituraPrincipal {
 	        System.out.print("\nSelecciona una opción: ");
 
 	        String entrada = sc.nextLine(); //  Leer como String primero
-	        
 	        try {
 	            opcion = Integer.parseInt(entrada); //  Intentar convertir a número
 	            if (opcion >= 1 && opcion <= 4) { 
